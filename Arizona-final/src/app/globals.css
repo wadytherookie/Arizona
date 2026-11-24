@@ -2363,3 +2363,12 @@ body {
   content: none;
   display: none;
 }
+html,
+body {
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
