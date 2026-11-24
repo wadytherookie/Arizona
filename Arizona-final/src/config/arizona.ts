@@ -1,0 +1,38 @@
+export const config = {
+  name: "Arizona",
+  tagline: "A clearer view of medicine.",
+  defaultCondition: "",
+  defaultColor: "#f35ca6",
+  defaultMode: "light" as "light" | "dark" | "system",
+  defaultColorCoverage: 100,
+  searchDebounce: 350,
+};
+export const conditions = [
+  "Asthma",
+  "Type 2 diabetes",
+  "Breast cancer",
+  "Alzheimer disease",
+  "Multiple sclerosis",
+  "Rheumatoid arthritis",
+  "Parkinson disease",
+  "Chronic kidney disease",
+  "Migraine",
+  "Heart failure",
+  "Lung cancer",
+  "Pneumonia",
+  "Stroke",
+  "Epilepsy",
+  "Psoriasis",
+  "Crohn disease",
+  "Hypertension",
+  "Endometriosis",
+];
+export const aliases: Record<string, string> = {
+  diabetis: "Type 2 diabetes",
+  diabetes: "Type 2 diabetes",
+  "type2 diabetes": "Type 2 diabetes",
+  "heart attack": "Myocardial infarction",
+  ms: "Multiple sclerosis",
+  copd: "Chronic obstructive pulmonary disease",
+  "kidney failure": "Chronic kidney disease",
+};

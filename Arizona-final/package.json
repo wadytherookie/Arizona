@@ -1,0 +1,25 @@
+{
+  "name": "arizona",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "node scripts/build-next.mjs && node scripts/build-worker.mjs",
+    "typecheck": "tsc --noEmit",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.468.0",
+    "fast-xml-parser": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "esbuild": "^0.25.0"
+  }
+}
