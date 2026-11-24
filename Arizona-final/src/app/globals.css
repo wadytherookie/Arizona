@@ -2351,3 +2351,15 @@ body {
     font-size: 14px;
   }
 }
+/* Hide remaining decorative stars */
+.brand-mark > span,
+.tiny-cross,
+.footer-star {
+  display: none;
+}
+
+.closing::before,
+.closing::after {
+  content: none;
+  display: none;
+}
