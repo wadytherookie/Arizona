@@ -390,7 +390,7 @@ export default function Home() {
             <div className="orbit orbit-one" />
             <div className="orbit orbit-two" />
             <div className="orbit orbit-three" />
-            <div className="art-cross">✳</div>
+            <div className="art-cross">.</div>
             <div className="floating-note note-top">
               <span className="note-icon">
                 <FlaskConical size={20} />
