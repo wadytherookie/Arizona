@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Explore conditions, clinical trials, drug labels, research and medical imaging, linked to public sources.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/images/favicon.png",
   },
 };
 
